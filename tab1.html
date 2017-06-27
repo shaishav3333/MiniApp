@@ -1,0 +1,15 @@
+<div class="bx" ng-controller="myCtrl">
+    <div class="fortxt">
+    <h1 style="color: #4e8c8a">TAB 1</h1>
+    <div>
+    Filter :
+        <select ng-model = "v" ng-options="i.value as i.name for i in names" ng-change="change(v)">
+
+        </select>
+
+    </div>
+        <p> Selected Filter Dropdown  menu :{{value}}</p><br>
+
+        <ul><li ng-repeat="item in dtaa | filter : v ">{{item}}</li></ul>
+    </div>
+</div>

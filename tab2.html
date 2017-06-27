@@ -1,0 +1,20 @@
+<div class="bx" ng-controller="myCtrl">
+ <div class="fortxt">
+     <h1 style="color: #4e8c8a">TAB 2</h1>
+     <div>
+         <h2>Click on the Thumbnails</h2>
+         <div id="img1">
+             <div id="img2"><img src="{{im}}" height="150px" width="150px"></div>
+             <ul id="ulist">
+              <li id="listi" ng-repeat="im in image"><img ng-src="{{im}}" height="100px" width="80px"
+              ng-click="sr($index)"></li>
+          </ul>
+         </div>
+
+
+     </div>
+
+
+
+ </div>
+</div>

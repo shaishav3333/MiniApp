@@ -1,0 +1,67 @@
+body{
+    font-family: 'Open Sans Condensed','Arial Narrow', serif;
+
+
+    background: #ddd url("images/bg.jpg") repeat top left;
+    font-weight: 400;
+    font-size: 15px;
+    color: #333;
+}
+#navbr{
+    width: 250px;
+}
+.nav{
+   margin-top: 100px;
+    height: 50px;
+    width: 250px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+   background-color: #4e8c8a;
+}
+
+.nav a{
+    color: black;
+}
+.bx{
+    width: 600px;
+    height: 500px;
+    background-color: white;
+
+}
+.fortxt{
+
+    height: 500px;
+
+    padding: 15px;
+
+}
+#img1{
+    height: 150px;
+
+}
+#ulist{
+    list-style-type: none;
+    height: 150px;
+
+
+}
+
+
+#img1 ul li{
+    display:inline-block;
+}
+
+.clearable{
+    background: #fff url(http://i.stack.imgur.com/mJotv.gif) no-repeat right -10px center;
+    border: 1px solid #999;
+    padding: 3px 18px 3px 4px;     /* Use the same right padding (18) in jQ! */
+    border-radius: 3px;
+    transition: background 0.4s;
+}
+
+.clearable.x  { background-position: right 5px center; }
+.clearable.onX{ cursor: pointer; }
+.clearable::-ms-clear {display: none; width:0; height:0;}
+

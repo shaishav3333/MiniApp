@@ -1,0 +1,19 @@
+<div class="bx" ng-controller="myCtrl">
+    <div class="fortxt">
+        <h1 style="color: #4e8c8a">TAB 3</h1>
+        <div ng-controller="myCtrl">
+            <form>
+                <input class="clearable" type="text" ng-model="naminput">
+                <button type="button" ng-click="adding()">Addnew</button><br>
+            </form>
+            <div ng-repeat="lst in aplist">
+                <ul>
+                    <li ng-bind="lst"></li>
+                </ul></div>
+
+        </div>
+
+
+
+    </div>
+</div>
